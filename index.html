@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="sr_latin">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vip mobile</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body id="uredjaji">
+
+<!-- Header START -->
+<header>
+
+    <!-- Lg navigation START -->
+    <div class="lg_nav">
+
+        <div class="top_nav">
+            <ul>
+                <li><a href="https://www.vipmobile.rs/privatni">Privatni</a></li>
+                <li><a href="https://www.vipmobile.rs/poslovni">Poslovni</a></li>
+                <li><a href="https://www.vipmobile.rs/o_vipu/o_nama/o_nama">O Vipu</a></li>
+            </ul>
+            <a href="https://www.vipmobile.rs/en" class="language">EN</a>
+        </div>
+
+        <div class="bottom_nav">
+            <h1><a href="#"><img src="img/vip_logo.png" alt="Vip mobile d.o.o"></a></h1>
+
+            <ul>
+                <li><a href="https://www.vipmobile.rs/privatni/ponuda/postpaid">Ponuda</a></li>
+                <li><a href="#" class="uredjaji-detaljnije">Mobilni uredjaji</a></li>
+                <li><a href="https://www.vipmobile.rs/privatni/internet/kucninet">Internet</a></li>
+                <li><a href="https://www.vipmobile.rs/privatni#">Usluge</a></li>
+                <li><a href="https://www.vipmobile.rs/privatni/roming/roming">Roming</a></li>
+                <li><a href="https://www.vipmobile.rs/bezbedniklinci">Bezbedni klinci</a></li>
+            </ul>
+
+            <a href="https://www.vipmobile.rs/o_vipu/prodaja/online_prodavnica" class="language"><img
+                    src="img/korpa.png" alt=""></a>
+            <a href="#" class="language round">Podrška</a>
+            <a href="#" class="language round">Moj Vip</a>
+        </div>
+
+    </div>
+    <!-- Lg navigation END -->
+
+    <!-- Mobile navigation START -->
+    <div class="sm_nav">
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <h1 class="logo_sm"><a href=""><img src="img/vip_logo.png" alt="Vip mobile logo"></a></h1>
+        <a href="#" class="language round">Moj Vip</a>
+    </div>
+
+    <div class="mobile-menu">
+
+        <ul>
+            <li><a href="https://www.vipmobile.rs/privatni/ponuda/postpaid">Ponuda</a></li>
+            <li><a href="#">Mobilni uredjaji</a></li>
+            <li><a href="https://www.vipmobile.rs/privatni/internet/kucninet">Internet</a></li>
+            <li><a href="https://www.vipmobile.rs/privatni#">Usluge</a></li>
+            <li><a href="https://www.vipmobile.rs/privatni/roming/roming">Roming</a></li>
+            <li><a href="https://www.vipmobile.rs/bezbedniklinci">Bezbedni klinci</a></li>
+        </ul>
+    </div>
+    <!-- Mobile navigation END -->
+
+</header>
+<!-- Header END -->
+
+<main>
+    <!-- intro START -->
+    <section>
+        <div class="intro">
+            <!-- Device description START -->
+            <div class="device-desc">
+                <div class="device-name">
+                    <h1>Apple</h1>
+                    <h2>iPhone XS Max 256GB</h2>
+                </div>
+                <ul>
+                    <li><span>6.5"</span> / 2688x1242 ekran</li>
+                    <li><span>12+12 MP</span> / 7 MP kamere</li>
+                    <li><span>Hexa-core</span> / 4 GB platforma</li>
+                    <li>do <span>256 GB</span> memorije</li>
+                </ul>
+            </div>
+            <!-- Device description END -->
+
+            <!-- Device image START -->
+            <div class="device-image">
+                <div class="color-picker">
+                    <p>Odaberi boju:</p>
+                    <div class="color">
+                        <button onclick="black()" class="choose-color"
+                                style="background: linear-gradient(315deg, #000000 0%, #414141 74%);"></button>
+                        <button onclick="gray()" class="choose-color" style="background:  linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+;
+"></button>
+                        <button onclick="yellow()" class="choose-color"
+                                style="background: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);"></button>
+                    </div>
+
+                    <div class="image-holder">
+                        <img id="img-area" src="img/xs-black.png" alt="">
+                    </div>
+                </div>
+                <div class="safe">
+                    <img src="img/bezbedna-kupovina.png" alt="">
+                    <p>Bezbedna kupovina</p>
+                </div>
+            </div>
+            <!-- Device image END -->
+
+            <!-- Device price START -->
+            <div class="device-price">
+                <select name="" id="price-tariff">
+                    <optgroup label="Neo tarife">
+                        <option value="neo3">NEO 3</option>
+                        <option value="neo5">NEO 5</option>
+                        <option value="neo12">NEO 12</option>
+                        <option value="neo30" selected="selected">NEO 30</option>
+                    </optgroup>
+                    <optgroup label="intarifa">
+                        <option value="intarifa">intarifa</option>
+                    </optgroup>
+                    <optgroup label="Klasik tarife">
+                        <option value="klasik">Klasik</option>
+                        <option value="klasik2">Klasik plus</option>
+                    </optgroup>
+                    <optgroup label="Sigurica">
+                        <option value="sigurica">Sigurica</option>
+                        <option value="sigurica2">Sigurica plus</option>
+                    </optgroup>
+                    <optgroup label="Maloprodajna cena">
+                        <option value="prepaid">Cena uredjaja uz Vip prepaid broj</option>
+                    </optgroup>
+                </select>
+                <div class="img-box">
+                    <img src="img/info.png" alt="">
+                </div>
+                <!-- Details -->
+                <div class="neo3 box">
+                    <h2>1.699 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>137.700 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="neo5 box">
+                    <h2>2.299 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>120.690 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="neo12 box">
+                    <h2>3.399 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>106.110 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="neo30 box">
+                    <h2>4.990 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>88.560 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="intarifa box">
+                    <h2>1.499 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>137.700 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="klasik box">
+                    <h2>699 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>154.800 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="klasik2 box">
+                    <h2>1.199 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>153.000 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="sigurica box">
+                    <h2>700 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>154.800 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="sigurica2 box">
+                    <h2>1.200 RSD</h2>
+                    <p>mesecna pretplata</p>
+                    <h2>153.000 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+                <div class="prepaid box">
+                    <h2>179.690 RSD</h2>
+                    <p>Cena uredjaja uz gotovinsko placanje</p>
+                    <a href="#" class="btn-pink">KUPI ONLINE</a>
+                </div>
+            </div>
+            <!-- Device price END -->
+        </div>
+    </section>
+    <!-- intro END -->
+
+    <!-- Online shop icons START -->
+    <div class="icon-holder">
+        <div class="headbar">
+            <h2>Prednost Vip online kupovine</h2>
+        </div>
+        <ul>
+            <li>
+                <a href=""><img src="img/1GB.png" alt=""></a><br>
+                <a href="">+1GB uz NEO</a>
+            </li>
+            <li>
+                <a href=""><img src="img/uvek-dostupna.png" alt=""></a><br>
+                <a href="">Uvek dostupna</a>
+            </li>
+            <li>
+                <a href=""><img src="img/bezbedna-kupovina.png" alt=""></a><br>
+                <a href="">Bezbedna kupovina</a>
+            </li>
+            <li>
+                <a href=""><img src="img/besplatna-dostava.png" alt=""></a><br>
+                <a href="">Besplatna dostava</a>
+            </li>
+            <li>
+                <a href=""><img src="img/isporuka-istog-dana.png" alt=""></a><br>
+                <a href="">Isporuka istog dana</a>
+            </li>
+            <li>
+                <a href=""><img src="img/plati-prilikom-preuzimanja.png" alt=""></a><br>
+                <a href="">Plati prilikom preuzimanja</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Online shop icons END -->
+
+    <!-- Accordion START -->
+    <div class="container-fluid">
+        <ul id="tabs" class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a id="tab-uredjaj" href="#o-uredjaju" class="nav-link" data-toggle="tab" role="tab">O uredjaju</a>
+            </li>
+            <li class="nav-item">
+                <a id="tab-cene" href="#cene" class="nav-link" data-toggle="tab" role="tab">Cene</a>
+            </li>
+            <li class="nav-item">
+                <a id="tab-karakteristike" href="#karakteristike" class="nav-link active" data-toggle="tab" role="tab">Karakterisitke</a>
+            </li>
+            <li class="nav-item">
+                <a id="tab-osiguranje" href="#osiguranje" class="nav-link" data-toggle="tab" role="tab">Osiguranje</a>
+            </li>
+            <li class="nav-item">
+                <a id="tab-uporedi" href="#uporedi" class="nav-link" data-toggle="tab" role="tab">Uporedi uredjaje</a>
+            </li>
+        </ul>
+
+
+        <div id="content" class="tab-content" role="tablist">
+            <!-- O uredjaju -->
+            <div id="o-uredjaju" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-o-uredjaju">
+                <div class="card-header" role="tab" id="heading-o-uredjaju">
+                    <h5 class="mb-0 plus-minus">
+                        <a class="collapsed" data-toggle="collapse" href="#collapse-o-uredjaju" aria-expanded="false"
+                           aria-controls="collapse-o-uredjaju">
+                            O uredjaju
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse-o-uredjaju" class="collapse" data-parent="#content" role="tabpanel"
+                     aria-labelledby="heading-o-uredjaju">
+                    <div class="card-body">
+                        O uredjaju content
+                    </div>
+                </div>
+            </div>
+            <!-- Cene -->
+            <div id="cene" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-cene">
+                <div class="card-header" role="tab" id="heading-cene">
+                    <h5 class="mb-0 plus-minus">
+                        <a class="collapsed" data-toggle="collapse" href="#collapse-cene" aria-expanded="false"
+                           aria-controls="collapse-cene">
+                            Cene
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse-cene" class="collapse" data-parent="#content" role="tabpanel"
+                     aria-labelledby="heading-cene">
+                    <div class="card-body">
+                        Cene uredjaja content
+                    </div>
+                </div>
+            </div>
+            <!-- Karakteristike -->
+            <div id="karakteristike" class="card tab-pane fade show active" role="tabpanel"
+                 aria-labelledby="tab-karakteristike">
+                <div class="card-header" role="tab" id="heading-karakterisitke">
+                    <h5 class="mb-0 plus-minus">
+                        <a class="collapsed" data-toggle="collapse" href="#collapse-karakteristike"
+                           aria-expanded="false"
+                           aria-controls="collapse-karakteristike">
+                            Karakteristike
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse-karakteristike" class="collapse show" role="tabpanel" data-parent="#content"
+                     aria-labelledby="heading-karakterisitke">
+                    <div class="card-body">
+                        <!-- Card section START -->
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Platforma</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Operativni sistem</span>
+                                <p>iOS 13</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Procesor</span>
+                                <p>Hexa-core (Dual-core Vortex & Quad-core Tempest)</p>
+                            </div>
+                            <div class="card-text">
+                                <span>RAM</span>
+                                <p>4 GB</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Ekran</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Velicina</span>
+                                <p>6.5"</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Rezolucija</span>
+                                <p>2688x1242</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Tip</span>
+                                <p>OLED</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Ekran osetljiv na dodir</span>
+                                <p>Da</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Kamera</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Glavna kamera</span>
+                                <p>12 MP</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Karakteristike glavne kamere</span>
+                                <p>dual kamera (wide/telephoto), f/1.8, 2x opticki zum, Quad-LED blic, opticka
+                                    stabilizacija slike, autofokus</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Prednja kamera</span>
+                                <p>7 MP</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Karakteristike prednje kamere</span>
+                                <p>f/2.2, detekcija lica, HDR</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Video</span>
+                                <p>4K video</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Memorija</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Interna</span>
+                                <p>do 256 GB</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Eksterna</span>
+                                <p>Ne</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Zvuk</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>FM radio</span>
+                                <p>Ne</p>
+                            </div>
+                            <div class="card-text">
+                                <span>3.5mm port</span>
+                                <p>Ne</p>
+                            </div>
+                            <div class="card-text">
+                                <span>HD voice</span>
+                                <p>Da</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Komunikacija</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Prenos podataka</span>
+                                <p>GPRS, EDGE, HSDPA, HSUPA, HSPA+, DC-HSPA+, LTE</p>
+                            </div>
+                            <div class="card-text">
+                                <span>2G mreza</span>
+                                <p>850/900/1800/1900 MHz</p>
+                            </div>
+                            <div class="card-text">
+                                <span>3G mreza</span>
+                                <p>850/900/1700/1800/1900/2100 MHz</p>
+                            </div>
+                            <div class="card-text">
+                                <span>4G mreza</span>
+                                <p>FDD 700/800/850/900/1700/1800/1900/2100/2600 MHz, TDD 1900/2300/2500/2600 MHz</p>
+                            </div>
+                            <div class="card-text">
+                                <span>USB</span>
+                                <p>Da, Lightning</p>
+                            </div>
+                            <div class="card-text">
+                                <span>WiFi</span>
+                                <p>Da, 802.11 b/g/n/ac, dualband</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Bluetooth</span>
+                                <p>Da, v5.0</p>
+                            </div>
+                            <div class="card-text">
+                                <span>NFC</span>
+                                <p>Da</p>
+                            </div>
+                            <div class="card-text">
+                                <span>GSP</span>
+                                <p>Da</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Poruke</span>
+                                <p>SMS, MMS, Email, Push Mail, IM</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Baterija</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Kapacitet baterije</span>
+                                <p>3174 mAh</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Ostale karakteristike</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>SIM kartica</span>
+                                <p>Nano SIM</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Dual SIM</span>
+                                <p>Ne</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Dimenzije</span>
+                                <p>157.5 x 77.4 x 7.7 mm</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Tezina</span>
+                                <p>208 g</p>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card-title">
+                                <h3>Ostalo</h3>
+                            </div>
+                            <div class="card-text">
+                                <span>Dodatne funkcionalnosti</span>
+                                <p>Face ID, Bezicno punjenje</p>
+                            </div>
+                            <div class="card-text">
+                                <span>Sadrzaj pakovanja</span>
+                                <p>Punjac, uputstvo, garancija, slušalice, USB kabl</p>
+                            </div>
+                        </div>
+
+                        <!-- Card section END -->
+                    </div>
+                </div>
+            </div>
+            <!-- Osiguranje -->
+            <div id="osiguranje" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-osiguranje">
+                <div class="card-header" role="tab" id="heading-osiguranje">
+                    <h5 class="mb-0 plus-minus">
+                        <a class="collapsed" data-toggle="collapse" href="#collapse-osiguranje" aria-expanded="false"
+                           aria-controls="collapse-osiguranje">
+                            Osiguranje
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse-osiguranje" class="collapse" data-parent="#content" role="tabpanel"
+                     aria-labelledby="heading-osiguranje">
+                    <div class="card-body">
+                        Osiguranje content
+                    </div>
+                </div>
+            </div>
+            <!-- Uporedi uredjaje -->
+            <div id="uporedi" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-uporedi">
+                <div class="card-header" role="tab" id="heading-uporedi">
+                    <h5 class="mb-0 plus-minus">
+                        <a class="collapsed" data-toggle="collapse" href="#collapse-uporedi" aria-expanded="false"
+                           aria-controls="collapse-uporedi">
+                            Uporedi uredjaje content
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse-uporedi" class="collapse" data-parent="#content" role="tabpanel"
+                     aria-labelledby="heading-uporedi">
+                    <div class="card-body">
+                        Uporedi uredjaje
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion END -->
+
+    <!-- Footer START -->
+    <footer>
+        <div class="main-footer">
+            <small>&copy; 2019 Vip mobile d.o.o. Sva prava zadrzana.</small>
+        </div>
+    </footer>
+    <!-- Footer END -->
+</main>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
