@@ -498,6 +498,18 @@ a.nav-link.active::before {
     width: 50%;
 }
 
+/* Fixed button */
+.fixed-button {
+    padding: 20px 0;
+    background-color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: none;
+}
+
 
 /*************************************
             Helper class

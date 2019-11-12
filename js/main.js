@@ -30,3 +30,14 @@ $("select").change(function () {
         }
     });
 }).change();
+
+/* Button scroll */
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 800) {
+        $('.fixed-button').fadeIn();
+    } else {
+        $('.fixed-button').fadeOut();
+    }
+
+});
